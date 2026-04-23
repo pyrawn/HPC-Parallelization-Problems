@@ -1,0 +1,12 @@
+numpy>=1.24.0
+scipy>=1.11.0
+matplotlib>=3.7.0
+pandas>=2.0.0
+mpi4py>=3.1.4
+requests>=2.31.0
+tqdm>=4.65.0
+tabulate>=0.9.0
+cellpose>=3.0.0
+scikit-image>=0.21.0
+tifffile>=2023.1.23
+opencv-python>=4.8.0

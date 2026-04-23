@@ -1,0 +1,57 @@
+Collecting cellpose
+  Downloading cellpose-4.1.1-py3-none-any.whl (213 kB)
+Collecting scikit-image
+  Downloading scikit_image-0.25.2-cp310-cp310-win_amd64.whl (12.8 MB)
+Collecting tifffile
+  Downloading tifffile-2025.5.10-py3-none-any.whl (226 kB)
+Collecting opencv-python>=4.8.0
+  Downloading opencv_python-4.13.0.92-cp37-abi3-win_amd64.whl (40.2 MB)
+Collecting roifile
+  Downloading roifile-2025.12.12-py3-none-any.whl (16 kB)
+Collecting natsort
+  Downloading natsort-8.4.0-py3-none-any.whl (38 kB)
+Requirement already satisfied: numpy>=1.20.0 in c:\users\deaqu\documents\hpc\u3\hpc-parallelization-problems\.venv\lib\site-packages (from cellpose) (2.2.6)
+Requirement already satisfied: tqdm in c:\users\deaqu\documents\hpc\u3\hpc-parallelization-problems\.venv\lib\site-packages (from cellpose) (4.67.3)
+Collecting fastremap
+  Downloading fastremap-1.18.0-cp310-cp310-win_amd64.whl (621 kB)
+Collecting fill-voids
+  Downloading fill_voids-2.1.1-cp310-cp310-win_amd64.whl (197 kB)
+Collecting opencv-python-headless
+  Downloading opencv_python_headless-4.13.0.92-cp37-abi3-win_amd64.whl (40.1 MB)
+Requirement already satisfied: scipy in c:\users\deaqu\documents\hpc\u3\hpc-parallelization-problems\.venv\lib\site-packages (from cellpose) (1.15.3)
+Collecting segment_anything
+  Downloading segment_anything-1.0-py3-none-any.whl (36 kB)
+Collecting imagecodecs
+  Downloading imagecodecs-2025.3.30-cp310-cp310-win_amd64.whl (28.9 MB)
+Collecting torch>=1.6
+  Downloading torch-2.11.0-cp310-cp310-win_amd64.whl (114.5 MB)
+Collecting torchvision
+  Downloading torchvision-0.26.0-cp310-cp310-win_amd64.whl (3.7 MB)
+Requirement already satisfied: packaging>=21 in c:\users\deaqu\documents\hpc\u3\hpc-parallelization-problems\.venv\lib\site-packages (from scikit-image) (26.1)
+Collecting imageio!=2.35.0,>=2.33
+  Downloading imageio-2.37.3-py3-none-any.whl (317 kB)
+Collecting networkx>=3.0
+  Downloading networkx-3.4.2-py3-none-any.whl (1.7 MB)
+Requirement already satisfied: pillow>=10.1 in c:\users\deaqu\documents\hpc\u3\hpc-parallelization-problems\.venv\lib\site-packages (from scikit-image) (12.2.0)
+Collecting lazy-loader>=0.4
+  Downloading lazy_loader-0.5-py3-none-any.whl (8.0 kB)
+Collecting sympy>=1.13.3
+  Downloading sympy-1.14.0-py3-none-any.whl (6.3 MB)
+Collecting fsspec>=0.8.5
+  Downloading fsspec-2026.3.0-py3-none-any.whl (202 kB)
+Collecting typing-extensions>=4.10.0
+  Downloading typing_extensions-4.15.0-py3-none-any.whl (44 kB)
+Requirement already satisfied: setuptools<82 in c:\users\deaqu\documents\hpc\u3\hpc-parallelization-problems\.venv\lib\site-packages (from torch>=1.6->cellpose) (57.4.0)
+Collecting filelock
+  Downloading filelock-3.29.0-py3-none-any.whl (39 kB)
+Collecting jinja2
+  Using cached jinja2-3.1.6-py3-none-any.whl (134 kB)
+Collecting mpmath<1.4,>=1.1.0
+  Downloading mpmath-1.3.0-py3-none-any.whl (536 kB)
+Collecting MarkupSafe>=2.0
+  Downloading markupsafe-3.0.3-cp310-cp310-win_amd64.whl (15 kB)
+Requirement already satisfied: colorama in c:\users\deaqu\documents\hpc\u3\hpc-parallelization-problems\.venv\lib\site-packages (from tqdm->cellpose) (0.4.6)
+Installing collected packages: mpmath, MarkupSafe, typing-extensions, sympy, networkx, jinja2, fsspec, filelock, torch, fastremap, torchvision, tifffile, segment-anything, roifile, opencv-python-headless, natsort, lazy-loader, imageio, imagecodecs, fill-voids, scikit-image, opencv-python, cellpose
+Successfully installed MarkupSafe-3.0.3 cellpose-4.1.1 fastremap-1.18.0 filelock-3.29.0 fill-voids-2.1.1 fsspec-2026.3.0 imagecodecs-2025.3.30 imageio-2.37.3 jinja2-3.1.6 lazy-loader-0.5 mpmath-1.3.0 natsort-8.4.0 networkx-3.4.2 opencv-python-4.13.0.92 opencv-python-headless-4.13.0.92 roifile-2025.12.12 scikit-image-0.25.2 segment-anything-1.0 sympy-1.14.0 tifffile-2025.5.10 torch-2.11.0 torchvision-0.26.0 typing-extensions-4.15.0
+WARNING: You are using pip version 21.2.3; however, version 26.0.1 is available.
+You should consider upgrading via the 'C:\Users\deaqu\Documents\HPC\U3\HPC-Parallelization-Problems\.venv\Scripts\python.exe -m pip install --upgrade pip' command.
